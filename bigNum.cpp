@@ -56,7 +56,7 @@ void bigNum::multiply(bigNum *num1, bigNum *num2)//¥O¿é¤J¨â¼Æ¬Û­¼¡A¨Ã±Nµ²ªG¦s©ó¦
 
 void bigNum::print(ofstream *file)//¼g¤JÀÉ®×
 {
-    *file << endl;
+    *file << "408411071 ±i­õ®x"<< endl;
     if (this->sign == false)
         *file << '-';
     (this->numArray[this->numLength - 1] == 0) ? *file << this->numArray[(this->numLength--) - 2] : *file << this->numArray[this->numLength - 1];
